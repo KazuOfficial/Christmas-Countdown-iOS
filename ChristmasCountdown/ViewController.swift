@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        DaysLabel.text?.append("pog")
+        DaysLabel.text = "pog"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var DaysLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        DaysLabel.text?.append("pog")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
+    
 }
 

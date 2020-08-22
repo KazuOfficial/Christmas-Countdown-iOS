@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet weak var DaysLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        DaysLabel.text?.append("pog")
+        DaysLabel.text = "pog"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

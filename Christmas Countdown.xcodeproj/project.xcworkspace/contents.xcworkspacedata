@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChristmasCountdown.xcodeproj">
+      location = "self:/Users/jakub/Documents/ChristmasCountdown/Christmas Countdown.xcodeproj">
    </FileRef>
 </Workspace>

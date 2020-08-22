@@ -36,17 +36,17 @@
 
 /* Begin PBXFileReference section */
 		3B8BF08324F166420079E7D3 /* jinglebells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jinglebells.mp3; sourceTree = "<group>"; };
-		3BC595AB24ED63FB00A642AF /* ChristmasCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC595AB24ED63FB00A642AF /* Christmas Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC595AE24ED63FB00A642AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC595B024ED63FB00A642AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BC595B324ED63FB00A642AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BC595B524ED63FB00A642AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC595B824ED63FB00A642AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC595BA24ED63FB00A642AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BC595BF24ED63FB00A642AF /* ChristmasCountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasCountdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC595BF24ED63FB00A642AF /* Christmas CountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC595C324ED63FB00A642AF /* ChristmasCountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownTests.swift; sourceTree = "<group>"; };
 		3BC595C524ED63FB00A642AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BC595CA24ED63FB00A642AF /* ChristmasCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasCountdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC595CA24ED63FB00A642AF /* Christmas CountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas CountdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC595CE24ED63FB00A642AF /* ChristmasCountdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownUITests.swift; sourceTree = "<group>"; };
 		3BC595D024ED63FB00A642AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,9 +97,9 @@
 		3BC595AC24ED63FB00A642AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BC595AB24ED63FB00A642AF /* ChristmasCountdown.app */,
-				3BC595BF24ED63FB00A642AF /* ChristmasCountdownTests.xctest */,
-				3BC595CA24ED63FB00A642AF /* ChristmasCountdownUITests.xctest */,
+				3BC595AB24ED63FB00A642AF /* Christmas Countdown.app */,
+				3BC595BF24ED63FB00A642AF /* Christmas CountdownTests.xctest */,
+				3BC595CA24ED63FB00A642AF /* Christmas CountdownUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BC595AA24ED63FB00A642AF /* ChristmasCountdown */ = {
+		3BC595AA24ED63FB00A642AF /* Christmas Countdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC595D324ED63FB00A642AF /* Build configuration list for PBXNativeTarget "ChristmasCountdown" */;
+			buildConfigurationList = 3BC595D324ED63FB00A642AF /* Build configuration list for PBXNativeTarget "Christmas Countdown" */;
 			buildPhases = (
 				3BC595A724ED63FB00A642AF /* Sources */,
 				3BC595A824ED63FB00A642AF /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = ChristmasCountdown;
+			name = "Christmas Countdown";
 			productName = ChristmasCountdown;
-			productReference = 3BC595AB24ED63FB00A642AF /* ChristmasCountdown.app */;
+			productReference = 3BC595AB24ED63FB00A642AF /* Christmas Countdown.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BC595BE24ED63FB00A642AF /* ChristmasCountdownTests */ = {
+		3BC595BE24ED63FB00A642AF /* Christmas CountdownTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC595D624ED63FB00A642AF /* Build configuration list for PBXNativeTarget "ChristmasCountdownTests" */;
+			buildConfigurationList = 3BC595D624ED63FB00A642AF /* Build configuration list for PBXNativeTarget "Christmas CountdownTests" */;
 			buildPhases = (
 				3BC595BB24ED63FB00A642AF /* Sources */,
 				3BC595BC24ED63FB00A642AF /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				3BC595C124ED63FB00A642AF /* PBXTargetDependency */,
 			);
-			name = ChristmasCountdownTests;
+			name = "Christmas CountdownTests";
 			productName = ChristmasCountdownTests;
-			productReference = 3BC595BF24ED63FB00A642AF /* ChristmasCountdownTests.xctest */;
+			productReference = 3BC595BF24ED63FB00A642AF /* Christmas CountdownTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3BC595C924ED63FB00A642AF /* ChristmasCountdownUITests */ = {
+		3BC595C924ED63FB00A642AF /* Christmas CountdownUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC595D924ED63FB00A642AF /* Build configuration list for PBXNativeTarget "ChristmasCountdownUITests" */;
+			buildConfigurationList = 3BC595D924ED63FB00A642AF /* Build configuration list for PBXNativeTarget "Christmas CountdownUITests" */;
 			buildPhases = (
 				3BC595C624ED63FB00A642AF /* Sources */,
 				3BC595C724ED63FB00A642AF /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				3BC595CC24ED63FB00A642AF /* PBXTargetDependency */,
 			);
-			name = ChristmasCountdownUITests;
+			name = "Christmas CountdownUITests";
 			productName = ChristmasCountdownUITests;
-			productReference = 3BC595CA24ED63FB00A642AF /* ChristmasCountdownUITests.xctest */;
+			productReference = 3BC595CA24ED63FB00A642AF /* Christmas CountdownUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BC595A624ED63FB00A642AF /* Build configuration list for PBXProject "ChristmasCountdown" */;
+			buildConfigurationList = 3BC595A624ED63FB00A642AF /* Build configuration list for PBXProject "Christmas Countdown" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BC595AA24ED63FB00A642AF /* ChristmasCountdown */,
-				3BC595BE24ED63FB00A642AF /* ChristmasCountdownTests */,
-				3BC595C924ED63FB00A642AF /* ChristmasCountdownUITests */,
+				3BC595AA24ED63FB00A642AF /* Christmas Countdown */,
+				3BC595BE24ED63FB00A642AF /* Christmas CountdownTests */,
+				3BC595C924ED63FB00A642AF /* Christmas CountdownUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		3BC595C124ED63FB00A642AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BC595AA24ED63FB00A642AF /* ChristmasCountdown */;
+			target = 3BC595AA24ED63FB00A642AF /* Christmas Countdown */;
 			targetProxy = 3BC595C024ED63FB00A642AF /* PBXContainerItemProxy */;
 		};
 		3BC595CC24ED63FB00A642AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3BC595AA24ED63FB00A642AF /* ChristmasCountdown */;
+			target = 3BC595AA24ED63FB00A642AF /* Christmas Countdown */;
 			targetProxy = 3BC595CB24ED63FB00A642AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +474,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasCountdown.app/ChristmasCountdown";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Countdown.app/Christmas Countdown";
 			};
 			name = Debug;
 		};
@@ -490,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasCountdown.app/ChristmasCountdown";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Countdown.app/Christmas Countdown";
 			};
 			name = Release;
 		};
@@ -527,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BC595A624ED63FB00A642AF /* Build configuration list for PBXProject "ChristmasCountdown" */ = {
+		3BC595A624ED63FB00A642AF /* Build configuration list for PBXProject "Christmas Countdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC595D124ED63FB00A642AF /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BC595D324ED63FB00A642AF /* Build configuration list for PBXNativeTarget "ChristmasCountdown" */ = {
+		3BC595D324ED63FB00A642AF /* Build configuration list for PBXNativeTarget "Christmas Countdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC595D424ED63FB00A642AF /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BC595D624ED63FB00A642AF /* Build configuration list for PBXNativeTarget "ChristmasCountdownTests" */ = {
+		3BC595D624ED63FB00A642AF /* Build configuration list for PBXNativeTarget "Christmas CountdownTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC595D724ED63FB00A642AF /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BC595D924ED63FB00A642AF /* Build configuration list for PBXNativeTarget "ChristmasCountdownUITests" */ = {
+		3BC595D924ED63FB00A642AF /* Build configuration list for PBXNativeTarget "Christmas CountdownUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BC595DA24ED63FB00A642AF /* Debug */,

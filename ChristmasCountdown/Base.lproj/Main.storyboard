@@ -44,7 +44,7 @@
                                 <rect key="frame" x="70" y="77" width="194" height="288"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="TreeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6eC-7z-jcv"/>
+                                    <action selector="TreeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r8g-PF-60A"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,7 +53,6 @@
                     </view>
                     <connections>
                         <outlet property="DaysLabel" destination="TkO-Cb-hL0" id="lU1-5Y-Rrt"/>
-                        <outlet property="TreeButton" destination="OL4-tq-yNA" id="iJV-mz-7Ku"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
